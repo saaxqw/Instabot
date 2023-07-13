@@ -121,9 +121,12 @@ a {
     line-height: 135%;
 }
 
+.language-option {
+    transition: all .3s ease-in;
+}
+
 .language-option:hover {
     color: #4754EB;
-    transition: all .3s;
 }
 
 .options-button {
@@ -144,13 +147,14 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 135%;
+
+    transition: all .3s ease-in;
 }
 
 .options-button:hover {
     background-color: white;
     border: 1px solid #4754EB;
     color: #4754EB;
-    transition: all .3s;
 }
 
 /* Screen 1 */
@@ -255,12 +259,13 @@ a {
     padding: 12px 24px;
 
     margin-right: 8px;
+
+    transition: all .2s ease-in;
 }
 
 .mailinglist-input-button:hover {
     background-color: #4754EB;
     color: white;
-    transition: all .2s;
 }
 
 .mailinglist-notification {
@@ -456,9 +461,12 @@ a {
     line-height: 135%;
 }
 
+.article-3-right-subtitle span {
+    transition: all .2s ease-in;
+}
+
 .article-3-right-subtitle span:hover {
     color: #4754EB;
-    transition: all .2s;
 }
 
 .article-3-right-subtitle hr {
@@ -542,13 +550,14 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 135%;
+
+    transition: all .2s ease-in;
 }
 
 .article-3-right-content-button:hover {
     background-color: white;
     color: #4754EB;
     border: 1px solid #4754EB;
-    transition: all .2s;
 }
 
 /* Screen 4 */
@@ -706,13 +715,14 @@ a {
     font-weight: 500;
     font-size: 18px;
     line-height: 135%;
+
+    transition: all .3s ease-in;
 }
 
 .article-4-block-footer-button:hover {
     background-color: #4754EB;
     color: white;
     border: 1px solid #4754EB;
-    transition: all .3s;
 }
 
 /* Screen 5 */
@@ -758,7 +768,13 @@ a {
 .feedback-4:hover {
     z-index: 2;
     transform: scale(1.2);
-    transition: all .2s;
+}
+
+.feedback-1,
+.feedback-2,
+.feedback-3,
+.feedback-4 {
+    transition: all .2s ease-in;
 }
 
 .feedback-1 {
@@ -931,13 +947,14 @@ a {
 
     margin-left: 1086px;
     margin-bottom: 96px;
+
+    transition: all .3s ease-in;
 }
 
 .button:hover {
     border: 1px solid #4754EB;
     background-color: #4754EB;
     color: white;
-    transition: all .3s;
 }
 
 /* Screen 6 */
@@ -1006,13 +1023,14 @@ a {
     padding: 12px 24px;
 
     margin-right: 8px;
+
+    transition: all .2s ease-in;
 }
 
 .article-6-mailinglist-input-button:hover {
     background-color: white;
     color: #4754EB;
     border: 1px solid #4754EB;
-    transition: all .2s;
 }
 
 /* Screen 7 */
@@ -1082,16 +1100,24 @@ a {
     z-index: none;
     left: 1244px;
     top: -88px;
+    transition: all .5s ease-in;
 }
 
 .image:hover {
     transform: rotate(45deg);
-    transition: all .5s;
+}
+
+.article7-block-image+.article7-block-text {
+    transition: all .5s ease-in;
 }
 
 .article7-block-image:hover+.article7-block-text {
     display: block;
-    transition: all .5s;
+}
+
+.article7-block-text:nth-child(4) {
+    display: block;
+    margin-bottom: 35px;
 }
 
 .article7-block-text {
@@ -1248,13 +1274,14 @@ a {
     color: #FFFFFF;
 
     margin-right: 24px;
+
+    transition: all .3s ease-in;
 }
 
 .article-7-application-button:hover {
     background: white;
     color: #4754EB;
     border: 1px solid #4754EB;
-    transition: all .3s;
 }
 
 /* Footer */
